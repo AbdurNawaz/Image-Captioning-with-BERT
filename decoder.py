@@ -8,9 +8,9 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 class Decoder(nn.Module):
     """
         This Decoder class takes the following inputs:
-        vocab_size: length of the vocabulary
-        model: Bert model
-        vocab: instance of Vocabulary Class and can be created by processData.py
+        vocab_size: length of the vocab data file.
+        model: Bert model.
+        vocab: instance of Vocabulary Class that can be created by processData.py
  
         We perform the following actions in Decoder:
 
