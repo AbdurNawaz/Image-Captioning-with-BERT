@@ -15,7 +15,7 @@ Parts of this codes in this project has been taken from the following repositrie
 <a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/cat.png" align="centre" height="350" width="350" ></a> 
 <a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/duck.png" align="right" height="350" width="350" ></a> 
 
-__output__: a large black cat is sitting infron of the tv  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  __output__: a duck floating the water near a tree branch
+__output__: a large black cat is sitting infront of the tv  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  __output__: a duck floating in the water near a tree branch
 
 This project can be broken down into the following scripts:
 
