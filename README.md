@@ -12,11 +12,11 @@ Parts of this codes in this project has been taken from the following repositrie
 2. https://github.com/ajamjoom/Image-Captions/blob/master/data_loader.py
 3. https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
 
-<a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/cat.png" align="centre" height="224" width="224" ></a> 
-<a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/duck.png" align="right" height="224" width="224" ></a> 
+<a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/cat.png" align="centre" height="350" width="350" ></a> 
+<a href="url"><img src="https://raw.githubusercontent.com/AbdurNawaz/Image-Captioning-with-BERT/master/images/duck.png" align="right" height="350" width="350" ></a> 
 
 
-&nbsp; &nbsp; &nbsp; __output__: a duck floating the water near a tree branch &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __output__: a large black cat is sitting infron of the tv
+&nbsp; &nbsp; &nbsp;__output__: a large black cat is sitting infron of the tv &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  __output__: a duck floating the water near a tree branch
 
 This project can be broken down into the following scripts:
 
