@@ -5,7 +5,7 @@
 
 # Image-Captioning
 
-This Repository contains the Pytorch implementation of the research paper [Show, Attend and Tell](https://arxiv.org/pdf/1502.03044.pdf) with improvemnts in the decoder part as we integrate BERT context vectors into training instead of LSTMs as used in the original paper.
+This Repository contains the Pytorch implementation of the research paper [Show, Attend and Tell](https://arxiv.org/pdf/1502.03044.pdf) with improvemnts in the decoder part as BERT context vectors have been integrated into training.
 
 Parts of this codes in this project has been taken from the following repositries:
 1. https://github.com/parksunwoo/show_attend_and_tell_pytorch/blob/master/prepro.py
@@ -25,4 +25,4 @@ __dataloader.py__ : This script will create the Dataset class required for the P
 
 __endocer.py__: This script contains the `Encoder` class which is a Resnet 101 network with thw last pooling and linear layer removed.
 
-__decodrder.py__: This 
+__decodrder.py__: This script contains the `Decode` class which is an LSTM network with BERT Embeddings. 
