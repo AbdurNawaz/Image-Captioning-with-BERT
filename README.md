@@ -19,10 +19,12 @@ __output__: a large black cat is sitting infront of the tv  &nbsp;  &nbsp; &nbsp
 
 This project can be broken down into the following scripts:
 
-__processData.py__: Running this file will pre process the COCO dataset and store it in `vocab.pkl` which can be used later.
+__processData.py__: Running this file will pre process the dataset and store it in `vocab.pkl` which can be used later.
 
 __dataloader.py__ : This script will create the Dataset class required for the Pytorch model with applying different transformation to the images.
 
 __endocer.py__: This script contains the `Encoder` class which is a Resnet 101 network with thw last pooling and linear layer removed.
 
 __decodrder.py__: This script contains the `Decode` class which is an LSTM network with BERT Embeddings. 
+
+The project uses 30,000 samples from the [MS COCO Dataset](https://cocodataset.org/#home) for training. Each sample has 5 captions associated with it.
