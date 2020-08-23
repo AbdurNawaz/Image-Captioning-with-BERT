@@ -19,7 +19,7 @@ __output__: a large black cat is sitting infront of the tv  &nbsp;  &nbsp; &nbsp
 
 This project can be broken down into the following scripts:
 
-__processData.py__: Running this file will pre process the dataset and store it in `vocab.pkl` which can be used later.
+__processData.py__: Running this file will pre process the data.
 
 __dataloader.py__ : This script will create the Dataset class required for the Pytorch model with applying different transformation to the images.
 
